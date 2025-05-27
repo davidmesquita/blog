@@ -1,0 +1,9 @@
+<h1> User </h1>
+<%= form_for @user do |f|%>
+  <%= f.label :username %>
+  <%= f.text_field :username %></br>
+  <%= f.label :password %></br>
+  <%= f.password_field :password %>
+  <%= submit_tag "Create user"%>
+
+<% end %>
